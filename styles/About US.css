@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #dde5f4;
+    box-sizing: border-box;
+    
+}
+
+.sc-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f7fe;
+    margin: 170px 0px 0px 20%;
+    padding: 30px;
+    width: 800px;
+}
+h1{
+    color: #7aa8dd;
+    font-family: Helvetica;
+}   
+h2{
+    
+    color: #1b3b60;
+}
+.p2{
+    color: #2782ea;
+    font-family: Helvetica;
+}
+.img{
+    float: left;
+}
+.text{
+    float: right;
+}

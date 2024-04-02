@@ -1,0 +1,94 @@
+body{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    background-color: #dde5f4;
+    
+}
+.sc-1{
+    background-color: #008DDA;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+nav ul{
+display: flex;
+justify-content: center;
+align-items: center;
+list-style-type: none;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+    transition: 0.3s;
+}
+.logo a{
+    cursor:default;
+}
+.text{
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.about{
+    margin-left: 50px
+}
+.contact{
+    margin-left: 50px;
+}
+.home{
+    margin-left: 210px;
+}
+.login{
+    margin-left: 320px;
+}
+
+li a:hover{
+    color: #FFC700;
+    transform: 30s;
+}
+
+footer {
+    background-color: #008DDA;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 15px;
+}
+
+/* ------------------------------------------------------------ */
+.products {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.product {
+    margin: 70px 0px 30px 80px;
+    padding-left:40px;
+    text-align: center;
+}
+
+.cart {
+    background: #008DDA;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.cart:hover{
+background-color: forestgreen;
+}
+
+.products img:hover{
+scale: 1.5;
+}
