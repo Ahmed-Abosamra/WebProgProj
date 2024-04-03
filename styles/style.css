@@ -24,7 +24,7 @@ list-style-type: none;
 li a{
     color: white;
     text-decoration: none;
-    margin-left: 40px;
+    margin-left: 1vw;
     transition: 0.3s;
 }
 .logo a{
