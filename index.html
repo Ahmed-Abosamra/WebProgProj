@@ -4,23 +4,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ElectroWellz</title>
     <link rel="icon" href="assets/logos/whitenobg.png">
+    <link rel="icon" href="assets/logos/whitenobg.png">
     <link rel="stylesheet" href="styles/style.css">
+    <script src="script.js"></script>
     </head>
     
     <body>
     <nav class="sc-1">
         <ul>
+            <li class="menulogo">
+                <img src="assets/images/menu.png" alt="menu" width="30px" onclick="openmenu()">
+            </li>
             <li class="logo"><a href="">
                 <img src="assets/logos/colornobg.png" alt="logo" width="70px" height="65px">
-            </a></li>
-            <li class="text"><a href="#">ElectroWellz</a></li>
-            <li class="home"><a href="#">Home</a></li>
+            </li>
+            <li class="text"><a href="index.html">ElectroWellz</a></li>
+        </ul>
+    </nav>
+
+    <div id="menu">
+        <ul>
+            <li class="x"><a class="closemenu" onclick="closemenu()">&times;</a></li>
+            <li class="home"><a href="index.html">Home</a></li>
             <li class="about"><a href="About US.html">About US</a></li>
             <li class="contact"><a href="Contact Us.html">Contact US</a></li>
             <li class="login"><a href="login.html" target="_blank">Login</a></li>
             <li class="sign"><a href="signup.html" target="_blank">Sign up</a></li>
         </ul>
-    </nav>
+    </div>
 
     <div class="products">
         <div class="product">
