@@ -129,3 +129,12 @@ background-color: forestgreen;
 .products img:hover{
 scale: 1.5;
 }
+
+#slideshow-container {
+    width:60%;
+    margin: auto;
+}
+
+#slideshow {
+    width:100%;
+}
